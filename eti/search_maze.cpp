@@ -16,7 +16,13 @@ search maze from start position to end position:
   0 0 0 0 1 1 1 0 0 0 1 1 0 1 0 1 1 0 0
   0 1 1 1 0 1 0 0 0 1 0 0 1 0 0 1 1 1 1
   0 0 1 0 0 1 0 1 0 1 0 1 1 0 1 0 0 1 1
- */
+
+  the following implementation:
+  1. search one path,
+  2. confirm the path
+  3. and print the path
+
+*/
 
 #include <array>
 #include <cassert>
